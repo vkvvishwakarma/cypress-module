@@ -21,6 +21,6 @@ cypress-project: this project is related to sample project cypress with Chai lib
     - npm install --save-dev mocha
 - install Mochawesome for html reporting 
     - npm install --save-dev mochawesome
-    
-  
+- Tell mocha to use the Mochawesome reporter:
+    - mocha testfile.js --reporter mochawesome
 
