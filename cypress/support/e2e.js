@@ -18,3 +18,12 @@ import './commands'
 
 // Alternatively you can use CommonJS syntax:
 // require('./commands')
+
+after(() => {
+    cy.task('generateReport')
+})
+
+module.exports = (on, config) => {
+    const getCompareSnapshotsPlugin = require('cypress-image-diff-js/dist/plugin')
+    getCompareSnapshotsPlugin(on, config)
+}
