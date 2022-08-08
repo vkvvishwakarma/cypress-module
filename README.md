@@ -23,4 +23,7 @@ cypress-project: this project is related to sample project cypress with Chai lib
     - npm install --save-dev mochawesome
 - Tell mocha to use the Mochawesome reporter:
     - mocha testfile.js --reporter mochawesome
+  
+#compare the screenshot in cypress
+- npm i -D cypress-image-diff-js
 
