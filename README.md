@@ -1,7 +1,5 @@
-# cypress-module
-cypress-project: this project is related to sample project cypress with Chai library and Mochawesome report
--------
--------
+# cypress-module:
+#####  cypress-project: this project is related to sample project cypress with Chai library and Mochawesome report
 ### How to install cypress
  - first do the npm install
  - npm init
@@ -36,7 +34,8 @@ cypress-project: this project is related to sample project cypress with Chai lib
   ```
     - mocha testfile.js --reporter mochawesome
   ```
-  
+  ---
+---
 ## compare the screenshot in cypress
   ```
     npm i -D cypress-image-diff-js
