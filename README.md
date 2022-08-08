@@ -34,7 +34,7 @@
   ```
     - mocha testfile.js --reporter mochawesome
   ```
-  ---
+---
 ---
 ## compare the screenshot in cypress
   ```
