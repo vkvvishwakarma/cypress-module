@@ -13,7 +13,14 @@ cypress-project: this project is related to sample project cypress with Chai lib
  - "cypress:open": "cypress open"
  - now goto terminal type the command npm run cypress:open and press enter
  - refresh the project cypress folder will be visible
-- Now we need to run the following command to terminal for adding execution framework
+- Now we need to run the following command to terminal for adding type as mocha
 - npm i --save-dev @types/mocha
 
- 
+ #for reporting purpose
+- install the mocha first
+    - npm install --save-dev mocha
+- install Mochawesome for html reporting 
+    - npm install --save-dev mochawesome
+- Tell mocha to use the Mochawesome reporter:
+    - mocha testfile.js --reporter mochawesome
+
